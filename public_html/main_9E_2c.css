@@ -1,0 +1,901 @@
+@charset "Shift_JIS";
+
+/*--------------------------------------------------------
+  共通レイアウトパーツ設定
+--------------------------------------------------------*/
+/* ヘッダー内パーツ */
+#hpb-headerMain{
+    width: 630px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    float: right;
+}
+
+#hpb-headerMain h1{
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-align: right;
+    font-weight: normal;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+#hpb-headerLogo{
+    width: 240px;
+    margin-left: 0px;
+    float: left;
+}
+
+#hpb-headerLogo a{
+    display: block;
+    height: 74px;
+    margin-top: 22px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    background-image : url(logo_9E.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#hpb-headerMain h1 p.catch{
+    /* 会社名の文字設定 */
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    line-height: 1;
+    text-align: right;
+    color: #666666;
+}
+
+#hpb-headerMain h1 p.address
+{
+}
+
+#hpb-headerExtra2
+{
+}
+
+/* フッター内パーツ */
+#hpb-footerMain{
+    width: 900px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hpb-footerMain p{
+    /* コピーライト文字設定 */
+    color: #707070;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#hpb-footerLogo
+{
+}
+
+#hpb-footerExtra1
+{
+}
+
+#hpb-footerExtra1 ul
+{
+}
+
+#hpb-footerExtra1 li
+{
+}
+
+#hpb-footerExtra1 a:link{
+    color: #666666;
+    text-decoration: none;
+}
+#hpb-footerExtra1 a:visited{
+    color: #666666;
+    text-decoration: none;
+}
+#hpb-footerExtra1 a:hover{
+    color: #666666;
+    text-decoration: none;
+}
+#hpb-footerExtra1 a:active{
+    color: #666666;
+    text-decoration: none;
+}
+
+#hpb-footerExtra2
+{
+}
+
+/* サイドブロック内パーツ */
+#banner
+{
+}
+
+#banner ul{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+
+/*--------------------------------------------------------
+  ナビゲーションデザイン設定
+--------------------------------------------------------*/
+
+#hpb-nav li a{
+    /* ナビゲーション文字設定 */
+    font-weight: bold;
+}
+
+#hpb-nav li a:link{
+    color: #000;
+    text-decoration: none;
+}
+/* ナビゲーション文字色設定 */
+#hpb-nav li a:visited{
+    color: #000;
+    text-decoration: none;
+}
+#hpb-nav li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+#hpb-nav li a:active{
+    color: #000;
+    text-decoration: none;
+}
+
+
+#hpb-nav li span.en{
+    display: none;
+}
+
+
+/*--------------------------------------------------------
+  基本パーツデザイン設定
+--------------------------------------------------------*/
+
+/* リンク文字色 */
+a:link{
+    color: #000;
+    text-decoration: underline;
+}
+a:visited{
+    color: #000;
+    text-decoration: underline;
+}
+a:hover{
+    color: #59afb8;
+    text-decoration: none;
+}
+a:active{
+    color: #59afb8;
+    text-decoration: none;
+}
+
+#hpb-skip{
+    /* ヘッダースキップの非表示 */
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+p{
+    margin-top: 0em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    line-height: 1.4;
+    text-align: left;
+}
+
+p.large{
+    font-weight: bold;
+}
+p.indent{
+    padding-left: 25px;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    clear: both;
+    border-top-width: 1px;
+    border-top-style: none;
+    border-right-width: 1px;
+    border-right-style: none;
+    border-left-width: 1px;
+    border-left-style: none;
+    color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-style: none;
+}
+
+.hpb-layoutset-02 #hpb-title h2{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-align: left;
+    overflow: hidden;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.hpb-layoutset-02 h2 span.ja{
+    font-size: 1.0em;
+    padding-right: 10px;
+    line-height: 50px;
+}
+
+.hpb-layoutset-02 h2 span.en{
+    font-size: 0.8em;
+    color: #59afb8;
+}
+
+h2 span.en{
+    font-size: 0.9em;
+    color: #B1CCE4;
+    text-transform: uppercase;
+}
+
+.hpb-layoutset-01 #hpb-wrapper h3{
+    margin-top: 1.5em;
+    margin-bottom: 15px;
+    height: 47px;
+    overflow: hidden;
+    background-position: center top;
+    background-repeat: no-repeat;
+    line-height: 45px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.hpb-layoutset-02 #hpb-wrapper h3{
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+    text-align: left;
+    height: 47px;
+    overflow: hidden;
+    background-position: center top;
+    background-repeat: no-repeat;
+    line-height: 45px;
+    padding-left: 35px;
+}
+
+h3 span.ja{
+    font-size: 1em;
+    color: #000000;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+h3 span.en{
+    display: none;
+}
+
+h3.hpb-c-index{
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: none;
+}
+
+h4{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.2;
+    color: #000000;
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-left-color: #FEDA37;
+}
+
+h5{
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.2;
+    color: #000000;
+}
+
+table{
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    border-collapse: collapse;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #cccccc;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #cccccc;
+}
+
+table th{
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    text-align: left;
+    background-color: #F3F3F3;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #cccccc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+table td{
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    text-align: left;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #cccccc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+/* フォームパーツ設定 */
+input.button{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea{
+    width: 350px;
+    height: 200px;
+}
+
+input.l{
+    width: 350px;
+}
+input.m{
+    width: 250px;
+}
+input.s{
+    width: 50px;
+}
+
+
+/* メインコンテンツ内基本パーツ */
+
+#hpb-main ul{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#hpb-main ul li{
+    text-align: left;
+    line-height: 1.4;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #DDDDDD;
+    color: #000000;
+}
+
+#hpb-main dl{
+    margin-top: 0;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    zoom: 100%;
+}
+
+
+#hpb-main dt{
+    float: left;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-align: left;
+    line-height: 16px;
+    min-height: 16px;
+    font-weight: normal;
+    width: 120px !important;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+#hpb-main dd{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 5px;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 7px;
+    text-align: left;
+    line-height: 16px;
+    min-height: 16px;
+    padding-left: 125px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d8d8d8;
+}
+
+*:first-child + html #hpb-main dd{
+    /* for IE7 */
+    padding-left: 10px;
+    min-height: 20px;
+}
+
+* html #hpb-main dd{
+    /* for IE6 */
+    padding-left: 0px;
+    height: 20px;
+}
+
+#hpb-main dl::after{
+    content: ".";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+#hpb-main img.left{
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+#hpb-main img.right{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+#pagetop{
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 0px;
+    margin-left: 0;
+    text-align: right;
+    width: 124px;
+    height: 24px;
+}
+
+#pagetop a{
+    /* ページの先頭へのリンク設定 */
+    display: block;
+    margin-left: auto;
+    width: 124px;
+    height: 24px;
+    overflow: hidden;
+    background-image : url(returnTop_9E.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-align: left;
+    text-indent: -9999px;
+}
+
+
+
+/* トップページ デザイン定義 */
+
+#toppage p{
+    color: #333;
+    font-weight: normal;
+}
+#toppage-info dt{
+    float: left;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-align: left;
+    line-height: 1.4;
+    font-weight: bold;
+    width: 9em !important;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+* html #toppage-info dd{
+    /* ie6用ハック */
+    padding-left: 15px;
+    height: 113px;
+}
+
+*:first-child + html #toppage-info dd{
+    /* for IE7 */
+    padding-left: 15px;
+    height: 113px;
+}
+
+#toppage-info dl{
+    margin-top: -10px;
+}
+
+#toppage-info dd{
+    padding-left: 132px;
+    min-height: 105px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+#toppage-info h4{
+    margin-top: 0px;
+    margin-bottom: -1.9em;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 1.5;
+    font-size: 1.0em;
+    font-weight: normal;
+    color: #003366;
+    border-left: none;
+}
+#toppage-info dl::after{
+    content: ".";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.info-photo{
+    float: left;
+    padding-right: 15px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+
+.info-comment{
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 1.8;
+}
+
+#toppage-info hr{
+    padding-top: 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d8d8d8;
+    clear: both;
+    margin-left: 15px;
+    width: 610px;
+}
+
+/* お問い合わせ */
+
+#information form{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+#information form table{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+#information form th, #information form td, #information form td input{
+    text-align: left;
+}
+
+/* =======================================================
+  レスポンシブル設定
+======================================================= */
+@media screen and (max-width: 568px) {
+	
+	/*--------------------------------------------------------
+		共通レイアウトパーツ設定
+	--------------------------------------------------------*/
+	/* ヘッダー内パーツ */
+	#hpb-headerMain{
+		width: 100%;
+		background-color: #FFDC0F;
+		float: none;
+	}
+	
+	#hpb-headerMain h1{
+		padding-right: 5px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+		text-align: left;
+		line-height: 1.4;
+	}
+	
+	#hpb-headerLogo{
+		width: 98%;
+		margin-right: auto;
+		margin-left: auto;
+		float: none;
+		display: inline-block;
+	}
+	#hpb-headerLogo a{
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 100%;
+		background-size: contain;
+	}
+	
+	/* フッター内パーツ */
+	#hpb-footerMain{
+		width: 100%;
+		height: auto;
+	}
+	
+	#hpb-footerMain p{
+		padding-top: 10px;
+		padding-right: 5px;
+		padding-bottom: 10px;
+		padding-left: 5px;
+		margin-bottom: 0;
+		word-break: break-all;
+	}
+	
+	/*--------------------------------------------------------
+		ナビゲーションデザイン設定
+	--------------------------------------------------------*/
+	#hpb-nav h3.hpb-c-index{
+		width: 27px;
+		height: 20px;
+		background-image : url(btn_menu.png);
+		background-position: top left;
+		background-repeat: no-repeat;
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		overflow: hidden;
+		text-indent: -9999px;
+		cursor: pointer;
+	}
+	
+	/*--------------------------------------------------------
+		基本パーツデザイン設定
+	--------------------------------------------------------*/	
+	
+	p{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.hpb-layoutset-02 #hpb-title h2{
+		margin-top: 10px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.hpb-layoutset-02 h2 span.ja{
+		padding-right: 0px;
+		line-height: 1.4;
+		display: inline-block;
+	}
+	
+	.hpb-layoutset-02 h2 span.en{
+		padding-left: 10px;
+		display: inline-block;
+	}
+	
+	.hpb-layoutset-01 #hpb-wrapper h3{
+		margin-top: 22px;
+		margin-bottom: 27px;
+		height: auto;
+		line-height: 1.4;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	
+	.hpb-layoutset-02 #hpb-wrapper h3{
+		margin-top: 26px;
+		margin-bottom: 17px;
+		height: auto;
+		line-height: 1.4;
+		padding-top: 5px;
+		padding-left: 10px;
+		padding-bottom: 5px;
+	}
+	
+	h3 span.ja{
+		padding-right: 0;
+		padding-left: 0;
+	}
+	
+	h4{
+		margin-left: 0px;
+		padding-right: 5px;
+	}
+	
+	h5{
+		padding-right: 2px;
+	}
+	
+	table{
+		width: 96%;
+		margin-left: auto;
+		margin-right: auto;
+		box-sizing: border-box;
+	}
+	
+	/* フォームパーツ設定 */
+	textarea{
+		width: 96%;
+	}
+	input.l{
+		width: 96%;
+	}
+	input.m{
+		width: 60%;
+	}
+	input.s{
+		width: 30%;
+	}
+	
+	/* メインコンテンツ内基本パーツ */
+	
+	#hpb-main ul li{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	
+	#hpb-main dl{
+		margin-right: 0px;
+    margin-bottom: 0px;
+		margin-left: 0px;
+	}
+	
+	#hpb-main dt{
+		float: none;
+		line-height: 1.4;
+		min-height: 100%;
+		padding-bottom: 0px;
+		max-width: 100%;
+		box-sizing: border-box; 
+	}
+	
+	#hpb-main dd{
+		padding-left: 15px;
+		line-height: 1.4;
+		min-height: 100%;
+	}
+	
+	#hpb-main img.left{
+		margin-right: 0;
+		margin-left: 0;
+		float: none;
+	}
+	
+	#hpb-main img.right{
+		margin-right: 0;
+		margin-left: 0;
+		float: none;
+	}
+	
+	#pagetop{
+		width: 100%;
+	}
+	
+	/* トップページ デザイン定義 */
+	
+	.info-photo{
+		padding-left: 0px;
+	}
+	
+	.info-comment{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	#toppage-info hr{
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	/* お問い合わせ */
+	
+	#information form{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	#information form table{
+		margin-left: auto;
+		margin-right: auto;
+		box-sizing: border-box;
+	}
+	
+}
